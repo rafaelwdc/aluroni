@@ -1,5 +1,5 @@
-import React from "react";
-import {ReactComponent as Logo} from "assets/logo.svg";
+import React from 'react';
+import {ReactComponent as Logo} from 'assets/logo.svg';
 
 export default function Rodape() {
     return (
@@ -8,5 +8,5 @@ export default function Rodape() {
             <p>A melhor massa com o melhor atendimento, só aqui na Aluroni</p>
             <Logo />
         </footer>
-    )
+    );
 }

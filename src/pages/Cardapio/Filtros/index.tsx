@@ -26,10 +26,10 @@ export default function Filtros({ filtro, setFiltro }: Props) {
                     key={opcao.id}
                     onClick={() => selecionaFiltro(opcao)}
                 >
-            {opcao.label}
-        </button>
-    ))
-}
+                    {opcao.label}
+                </button>
+            ))
+            }
         </div >
     );
-};
+}

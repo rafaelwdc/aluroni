@@ -4,4 +4,4 @@ export default function Botao() {
     return(
         <button className={styles.botao}>Botão</button>
     );
-};
+}

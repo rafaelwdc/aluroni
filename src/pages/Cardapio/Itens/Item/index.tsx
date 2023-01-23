@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Item.module.scss';
 import cardapio from '../../Itens/itens.json';
-import clasNames from 'classnames'
+import clasNames from 'classnames';
 
 type Props = typeof cardapio[0];
 
@@ -36,5 +36,5 @@ export default function Item(props: Props) {
                 </div>
             </div>
         </div>
-    )
+    );
 }
