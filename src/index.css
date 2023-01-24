@@ -13,5 +13,5 @@ body {
 #root > main.container {
   display: flex;
   flex-direction: column;
-  min-width: 100vh;
+  min-height: 100vh;
 }
