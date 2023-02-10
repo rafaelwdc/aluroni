@@ -11,8 +11,13 @@ export default function Cardapio() {
     const [busca, setBusca] = useState('');
     const [filtro, setFiltro] = useState<number | null>(null);
     const [ordenador, setOrdenador] = useState('');
+    let teste = 'Olá Aluno!';
     return (
         <section className={styles.cardapio}>
+            <h1 onClick={() => {
+                teste = 'Hello World!';
+                console.log(teste);
+            }}>{teste}</h1>
             <h3 className={stylesTema.titulo}>
                 Cardápio
             </h3>
